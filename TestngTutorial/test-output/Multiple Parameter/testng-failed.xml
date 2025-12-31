@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Multiple Parameter]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <parameter name="url" value="ApnaCollege.com"/>
+    <parameter name="username" value="Tanu Giri"/>
+    <classes>
+      <class name="Test2.MultipleParameter">
+        <methods>
+          <include name="UserLogin"/>
+        </methods>
+      </class> <!-- Test2.MultipleParameter -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Multiple Parameter] -->
